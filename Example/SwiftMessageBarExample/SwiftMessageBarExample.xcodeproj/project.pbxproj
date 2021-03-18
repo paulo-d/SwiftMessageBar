@@ -15,6 +15,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BAAA722D2603474F00CBA87B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2AB592E1B28B3C9001DCC74 /* SwiftMessageBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F283F61925237BAC003DB4CF;
+			remoteInfo = SwiftMessageBarTests;
+		};
 		F2AB59331B28B3C9001DCC74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F2AB592E1B28B3C9001DCC74 /* SwiftMessageBar.xcodeproj */;
@@ -97,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F2AB59341B28B3C9001DCC74 /* SwiftMessageBar.framework */,
+				BAAA722E2603474F00CBA87B /* SwiftMessageBarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +171,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		BAAA722E2603474F00CBA87B /* SwiftMessageBarTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftMessageBarTests.xctest;
+			remoteRef = BAAA722D2603474F00CBA87B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		F2AB59341B28B3C9001DCC74 /* SwiftMessageBar.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -274,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -339,7 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftMessageBarExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.schnaub.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,7 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftMessageBarExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.schnaub.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
