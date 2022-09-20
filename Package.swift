@@ -11,7 +11,8 @@ let package = Package(
         .target(  
             name: "SwiftMessageBar",
             dependencies: [],
-        exclude: ["Example"]
+            path: "SwiftMessageBar",
+            exclude: ["Example"]
         ),
         .testTarget(
             name: "SwiftMessageBarTests",
